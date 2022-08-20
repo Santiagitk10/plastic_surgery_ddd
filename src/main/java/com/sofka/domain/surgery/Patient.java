@@ -40,13 +40,11 @@ public class Patient extends Entity<PatientID> {
         this.rh = Objects.requireNonNull(rh);
     }
 
-    //TODO Revisar si si debo tener este método o mejor solo dejar el comportamiento como tal en el SurgeryChange Y SI NECESITO EL GETTER SIN "GET" ABAJO
+
     public void addAllergy(Allergy allergy) {
         var allergyToBeAdded = Objects.requireNonNull(allergy);
         this.allergies.add(allergyToBeAdded);
     }
-
-
 
 
     public Name name() {

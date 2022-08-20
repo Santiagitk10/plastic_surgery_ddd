@@ -40,7 +40,7 @@ public class Doctor extends Entity<DoctorID> {
         this.shift = Objects.requireNonNull(shift);
     }
 
-    //TODO Revisar si si debo tener este método o mejor solo dejar el comportamiento como tal en el SurgeryChange Y SI NECESITO EL GETTER SIN "GET" ABAJO
+
     public void addSpecialty(Specialty specialty) {
         var specialtyToBeAdded = Objects.requireNonNull(specialty);
         this.specialties.add(specialtyToBeAdded);

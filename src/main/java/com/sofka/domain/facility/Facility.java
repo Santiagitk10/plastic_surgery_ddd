@@ -139,8 +139,6 @@ public class Facility extends AggregateEvent<FacilityID> {
     }
 
 
-    //TODO PENDIENTE OPTIONALS PARA BUSQUEDAS POR ID
-
 
 
     public Name clinicName() {

@@ -9,6 +9,7 @@ import com.sofka.domain.surgery.values.*;
 
 import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.Set;
 
 public class Surgery extends AggregateEvent<SurgeryID> {
@@ -170,7 +171,9 @@ public class Surgery extends AggregateEvent<SurgeryID> {
     }
 
 
-    //TODO PENDIENTE OPTIONALS PARA BUSQUEDAS POR ID
+    public Optional<Nurse> getNurseByNurseID(NurseID nurseID){
+        return nurses().stream().filter((nurse -> nurse.identity().equals(nurseID))).findFirst();
+    }
 
 
     public Specialty specialty() {

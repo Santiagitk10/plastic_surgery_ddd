@@ -43,8 +43,6 @@ j
 :src/main/java/com/sofka/domain/facility/values/Status.java,2\c\2cec5c4dc058a90af8c750614b8f75f7b949d565
 k
 ;src/main/java/com/sofka/domain/facility/values/StatusE.java,9\e\9e8f883bd601edeb85397bb654f56c6e75717ebb
-m
-=src/main/java/com/sofka/domain/surgery/values/IsFinished.java,b\a\ba562cb6e51a84d793d115046fec7bc918f831d1
 j
 :src/main/java/com/sofka/domain/surgery/values/Allergy.java,2\2\22dee5caa6c273197d2259587f5d8f71160b85ba
 l
