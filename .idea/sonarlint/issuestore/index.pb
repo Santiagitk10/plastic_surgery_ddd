@@ -36,10 +36,6 @@ Csrc/main/java/com/sofka/domain/facility/values/OperatingRoomID.java,f\3\f3fd39
 u
 Esrc/main/java/com/sofka/domain/facility/values/InstrumentationID.java,8\1\81f391bca130efe8c02b6aa6deb09add712034d7
 j
-:src/main/java/com/sofka/domain/facility/values/Status.java,2\c\2cec5c4dc058a90af8c750614b8f75f7b949d565
-k
-;src/main/java/com/sofka/domain/facility/values/StatusE.java,9\e\9e8f883bd601edeb85397bb654f56c6e75717ebb
-j
 :src/main/java/com/sofka/domain/surgery/values/Allergy.java,2\2\22dee5caa6c273197d2259587f5d8f71160b85ba
 l
 <src/main/java/com/sofka/domain/shared/values/Anesthesia.java,8\7\8705183b969dbfcddc8ea6e0753cf943a09d0be1
