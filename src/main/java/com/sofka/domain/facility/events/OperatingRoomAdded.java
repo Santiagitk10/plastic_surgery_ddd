@@ -4,7 +4,7 @@ import co.com.sofka.domain.generic.DomainEvent;
 import com.sofka.domain.facility.values.*;
 import com.sofka.domain.shared.values.Anesthesia;
 
-public class OperationRoomAdded extends DomainEvent {
+public class OperatingRoomAdded extends DomainEvent {
 
     private final OperatingRoomID operatingRoomID;
     private final HospitalWing hospitalWing;
@@ -12,7 +12,7 @@ public class OperationRoomAdded extends DomainEvent {
     private final Anesthesia anesthesia;
     private final Monitors monitors;
 
-    public OperationRoomAdded(OperatingRoomID operatingRoomID, HospitalWing hospitalWing, Status status, Anesthesia anesthesia, Monitors monitors) {
+    public OperatingRoomAdded(OperatingRoomID operatingRoomID, HospitalWing hospitalWing, Status status, Anesthesia anesthesia, Monitors monitors) {
         super("sofka.domain.facility.OperationRoomAdded");
         this.operatingRoomID = operatingRoomID;
         this.hospitalWing = hospitalWing;

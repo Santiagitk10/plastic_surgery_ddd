@@ -4,7 +4,7 @@ import co.com.sofka.domain.generic.Command;
 import com.sofka.domain.facility.values.*;
 import com.sofka.domain.shared.values.Anesthesia;
 
-public class AddOperationRoom extends Command {
+public class AddOperatingRoom extends Command {
 
     private final FacilityID facilityID;
     private final OperatingRoomID operatingRoomID;
@@ -13,7 +13,7 @@ public class AddOperationRoom extends Command {
     private final Anesthesia anesthesia;
     private final Monitors monitors;
 
-    public AddOperationRoom(FacilityID facilityID, OperatingRoomID operatingRoomID, HospitalWing hospitalWing, Status status, Anesthesia anesthesia, Monitors monitors) {
+    public AddOperatingRoom(FacilityID facilityID, OperatingRoomID operatingRoomID, HospitalWing hospitalWing, Status status, Anesthesia anesthesia, Monitors monitors) {
         this.facilityID = facilityID;
         this.operatingRoomID = operatingRoomID;
         this.hospitalWing = hospitalWing;

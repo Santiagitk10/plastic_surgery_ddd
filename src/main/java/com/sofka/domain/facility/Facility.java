@@ -67,7 +67,7 @@ public class Facility extends AggregateEvent<FacilityID> {
         Objects.requireNonNull(status);
         Objects.requireNonNull(anesthesia);
         Objects.requireNonNull(monitors);
-        appendChange(new OperationRoomAdded(operatingRoomID, hospitalWing, status, anesthesia, monitors)).apply();
+        appendChange(new OperatingRoomAdded(operatingRoomID, hospitalWing, status, anesthesia, monitors)).apply();
     }
 
     public void addInstrumentation(InstrumentationID instrumentationID, Manufacturer manufacturer, Status status, SanitationDate sanitationDate){
