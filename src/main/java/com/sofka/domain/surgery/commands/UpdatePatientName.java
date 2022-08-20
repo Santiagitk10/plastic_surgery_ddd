@@ -1,7 +1,7 @@
 package com.sofka.domain.surgery.commands;
 
 import co.com.sofka.domain.generic.Command;
-import com.sofka.domain.surgery.values.Name;
+import com.sofka.domain.shared.values.Name;
 import com.sofka.domain.surgery.values.PatientID;
 import com.sofka.domain.surgery.values.SurgeryID;
 

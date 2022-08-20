@@ -1,20 +1,20 @@
-package com.sofka.domain.surgery.values;
+package com.sofka.domain.facility.values;
 
 import co.com.sofka.domain.generic.ValueObject;
 
 import java.util.Objects;
 
-public class Name implements ValueObject<String> {
+public class Location implements ValueObject<String> {
 
     private final String value;
 
-    public Name(String value) {
+    public Location(String value) {
         this.value = Objects.requireNonNull(value);
         if(this.value.isBlank()){
-            throw new IllegalArgumentException("The VO Name cannot be blank");
+            throw new IllegalArgumentException("The VO Location cannot be blank");
         }
-        if(this.value.length() < 15){
-            throw new IllegalArgumentException("The VO Name cannot have less than 15 letters");
+        if(this.value.length() < 5){
+            throw new IllegalArgumentException("The VO Location cannot have less than 5 letters");
         }
     }
 
@@ -28,8 +28,8 @@ public class Name implements ValueObject<String> {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Name name = (Name) o;
-        return Objects.equals(value, name.value);
+        Location location = (Location) o;
+        return Objects.equals(value, location.value);
     }
 
     @Override

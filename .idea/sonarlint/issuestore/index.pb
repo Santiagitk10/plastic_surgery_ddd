@@ -3,8 +3,6 @@ s
 Csrc/main/java/com/sofka/domain/surgery/values/ReasonForSurgery.java,6\0\60406ae85fc15fbf99587be9f15fd8cfa7818bfa
 r
 Bsrc/main/java/com/sofka/domain/facility/values/SanitationDate.java,9\b\9b2f6a6fdd179bbe37810949f44699665bbb3844
-q
-Asrc/main/java/com/sofka/domain/facility/values/BedsAvailable.java,8\d\8dc5366134acb65002280af309b17877bcac222a
 l
 <src/main/java/com/sofka/domain/facility/values/Monitors.java,c\4\c422ac2ef8a121a995b9212197b31663d58cb4bf
 f
@@ -23,5 +21,3 @@ p
 @src/main/java/com/sofka/domain/facility/values/HospitalWing.java,1\2\121692624a01efe0d4d4e4c9b4e46cb6204e1c45
 i
 9src/main/java/com/sofka/domain/surgery/values/ShiftE.java,4\f\4fdfb077930e5c56550a9e33693b7264cf7daa09
-p
-@src/main/java/com/sofka/domain/facility/values/Manufacturer.java,f\6\f6e47e3b455026baddf09cef9ea0e3da7797446c
