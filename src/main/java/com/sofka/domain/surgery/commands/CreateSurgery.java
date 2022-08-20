@@ -15,8 +15,16 @@ public class CreateSurgery extends Command {
     private final SurgeryDate surgeryDate;
     private final IsFinished isFinished;
 
-    public CreateSurgery(SurgeryID surgeryID, Specialty specialty, Anesthesia anesthesia, SurgeryDate surgeryDate, IsFinished isFinished) {
+    /*public CreateSurgery(SurgeryID surgeryID, Specialty specialty, Anesthesia anesthesia, SurgeryDate surgeryDate, IsFinished isFinished) {
         this.surgeryID = surgeryID;
+        this.specialty = specialty;
+        this.anesthesia = anesthesia;
+        this.surgeryDate = surgeryDate;
+        this.isFinished = isFinished;
+    }*/
+
+    public CreateSurgery(Specialty specialty, Anesthesia anesthesia, SurgeryDate surgeryDate, IsFinished isFinished) {
+        this.surgeryID = new SurgeryID();
         this.specialty = specialty;
         this.anesthesia = anesthesia;
         this.surgeryDate = surgeryDate;

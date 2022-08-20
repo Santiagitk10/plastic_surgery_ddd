@@ -9,8 +9,6 @@ f
 6src/main/java/com/sofka/domain/surgery/values/Age.java,c\f\cfed80d952c37d141d29e91f8df855b7117f3e5f
 e
 5src/main/java/com/sofka/domain/surgery/values/Rh.java,f\a\fa97fd76b1ddb1d934cc99714979882367d80e2f
-l
-<src/main/java/com/sofka/domain/surgery/values/Specialty.java,6\d\6dc4380a7c7d94dee31b807bcf352ed0dfeb8db3
 n
 >src/main/java/com/sofka/domain/surgery/values/SurgeryDate.java,e\0\e08bce90255659751fa2873bb648412a877c7de1
 s
@@ -29,8 +27,6 @@ l
 <src/main/java/com/sofka/domain/surgery/values/PatientID.java,a\5\a5991bdff00926ea8e04d8569f46e149e6d9b47c
 k
 ;src/main/java/com/sofka/domain/surgery/values/DoctorID.java,f\a\fadb51d8b35bb8a8de0dfb373310d5ab5be2e19e
-n
->src/main/java/com/sofka/domain/facility/values/FacilityID.java,9\1\9198187fd6964ea0310813a66fa08875344cdb32
 r
 Bsrc/main/java/com/sofka/domain/facility/values/RecoveryAreaID.java,1\b\1b6dc652bfa06ab0686f8d2321436dfaa27ea5f5
 s
@@ -47,8 +43,6 @@ j
 :src/main/java/com/sofka/domain/surgery/values/Allergy.java,2\2\22dee5caa6c273197d2259587f5d8f71160b85ba
 l
 <src/main/java/com/sofka/domain/shared/values/Anesthesia.java,8\7\8705183b969dbfcddc8ea6e0753cf943a09d0be1
-m
-=src/main/java/com/sofka/domain/shared/values/AnesthesiaE.java,d\9\d96b544d87bbde1896545ace13fbdcaa5bfaed6c
 p
 @src/main/java/com/sofka/domain/facility/values/Manufacturer.java,f\6\f6e47e3b455026baddf09cef9ea0e3da7797446c
 l
