@@ -73,8 +73,6 @@ v
 Fsrc/main/java/com/sofka/domain/surgery/commands/AddPatientAllergy.java,f\3\f3d6435c4e817325a45a387f0afd8fc3bdd9be6d
 t
 Dsrc/main/java/com/sofka/domain/surgery/commands/ChangePatientRh.java,3\e\3e91dc054e5a55558ddf3af9e52806e544e6a6a3
-u
-Esrc/main/java/com/sofka/domain/surgery/commands/UpdateDoctorName.java,8\9\89d107f6329778a6e0c36f06d7ffd8816b6ce28c
 t
 Dsrc/main/java/com/sofka/domain/surgery/commands/UpdateDoctorAge.java,e\1\e13fc593f6a36f5f915d58c78aa0982b602d104b
 w
