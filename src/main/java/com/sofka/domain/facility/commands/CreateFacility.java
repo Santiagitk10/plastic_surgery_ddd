@@ -15,13 +15,6 @@ public class CreateFacility extends Command {
     private final Ambulances ambulances;
     private final Location location;
 
-    /*public CreateFacility(FacilityID facilityID, SurgeryID surgeryID, Name clinicName, Ambulances ambulances, Location location) {
-        this.facilityID = facilityID;
-        this.surgeryID = surgeryID;
-        this.clinicName = clinicName;
-        this.ambulances = ambulances;
-        this.location = location;
-    }*/
 
     public CreateFacility(SurgeryID surgeryID, Name clinicName, Ambulances ambulances, Location location) {
         this.facilityID = new FacilityID();

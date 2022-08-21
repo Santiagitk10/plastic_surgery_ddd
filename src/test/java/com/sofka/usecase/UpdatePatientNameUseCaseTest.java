@@ -6,7 +6,6 @@ import co.com.sofka.business.support.RequestCommand;
 import com.sofka.domain.shared.values.Anesthesia;
 import com.sofka.domain.shared.values.AnesthesiaE;
 import com.sofka.domain.shared.values.Name;
-import com.sofka.domain.surgery.commands.UpdateDoctorName;
 import com.sofka.domain.surgery.commands.UpdatePatientName;
 import com.sofka.domain.surgery.events.*;
 import com.sofka.domain.surgery.values.*;

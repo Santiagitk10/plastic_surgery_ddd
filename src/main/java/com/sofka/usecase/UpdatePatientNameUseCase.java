@@ -4,7 +4,6 @@ import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;
 import com.sofka.domain.surgery.Surgery;
-import com.sofka.domain.surgery.commands.UpdateDoctorName;
 import com.sofka.domain.surgery.commands.UpdatePatientName;
 
 public class UpdatePatientNameUseCase extends UseCase<RequestCommand<UpdatePatientName>, ResponseEvents> {
