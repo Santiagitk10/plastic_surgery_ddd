@@ -63,8 +63,6 @@ u
 Esrc/main/java/com/sofka/domain/surgery/commands/UpdateNurseShift.java,3\5\356449e3e9e298501c0bcf3d11fee7a1f1ba74e9
 s
 Csrc/main/java/com/sofka/domain/surgery/commands/UpdateNurseAge.java,a\1\a1e7ec01ddb7cab38d783950e6720bc878305f40
-v
-Fsrc/main/java/com/sofka/domain/surgery/commands/UpdatePatientName.java,c\6\c6c296926101bad7f2252d1bd1a6faea623e3f51
 u
 Esrc/main/java/com/sofka/domain/surgery/commands/UpdatePatientAge.java,4\3\437fe8236fc9651a6fbc9511e76d26c22a033ae1
 ‚
